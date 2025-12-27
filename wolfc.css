@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: Lato Heavy, Helvetica, sans-serif;
+    background-color: #0A2540;
+    color: #FFF;
+    line-height: 2.5;
+}
+
+header {
+    text-align: centre;
+    padding: 40px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+nav {
+    display: flex;
+    justify-content: centre;
+    gap: 20px;
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FFF;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #C9A227;
+}
+
+.hero {
+    text-align: centre;
+    padding: 40px 20px;
+    background-color: #666;
+    text-align: centre;
+}
+
+section {
+    max-width: 1000px;
+    margin: auto;
+    padding: 50px 20px;
+}
+
+h2 {
+    margin-bottom: 12px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+button {
+    padding: 12px;
+    border: none;
+    background-color: #222;
+    color: white;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: #222;
+    cursor:allowed;
+}
+
+footer {
+    text-align: centre;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+    font-size: 14px;
+}
+
